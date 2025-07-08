@@ -1,8 +1,8 @@
 # Kate Stankevich
 
-![Photo](/778290741.png)
+![Photo](/pic.png)
 
-## CContact information
+## Contact information
 
 - Location: Minsk, Belarus
 - Telegram: @Ekaterina421
@@ -18,34 +18,34 @@ I am a junior frontend developer and I love creating user-friendly interfaces an
 
 - ### Markup & Styling:
 
-* HTML5 (semantic layout, valid W3C)
-* CSS3 (Flexbox, Grid, animations, transitions)
-* Responsive & adaptive design (mobile-first approach)
-* Cross-browser compatibility (Chrome, Firefox, Safari, Edge)
-* CSS preprocessors: SCSS / LESS
-* Frameworks: Bootstrap
+  - HTML5 (semantic layout, valid W3C)
+  - CSS3 (Flexbox, Grid, animations, transitions)
+  - Responsive & adaptive design (mobile-first approach)
+  - Cross-browser compatibility (Chrome, Firefox, Safari, Edge)
+  - CSS preprocessors: SCSS / LESS
+  - Frameworks: Bootstrap
 
 - ### JavaScript & Ecosystem:
 
-* Vanilla JS (ES6+): OOP, DOM API, Event Loop
-* Asynchronous programming: Promises, async/await, Fetch API
-* Working with REST API, JSON
-* Testing: Jest
+  - Vanilla JS (ES6+): OOP, DOM API, Event Loop
+  - Asynchronous programming: Promises, async/await, Fetch API
+  - Working with REST API, JSON
+  - Testing: Jest
 
 - ### React & State Management:
 
-* Components: Class-based & Functional (Hooks)
-* React Router (SPA, dynamic routing)
-* State management: MobX
-* Basic experience with Redux
+  - Components: Class-based & Functional (Hooks)
+  - React Router (SPA, dynamic routing)
+  - State management: MobX
+  - Basic experience with Redux
 
 - ### Tools & Workflow:
 
-* Version control: Git, GitHub, Git Flow
-* Task management: Yougile, Kaiten
-* Bundlers: Webpack
-* Design tools: Figma (pixel-perfect layout implementation)
-* Teamwork: Agile (Scrum/Kanban), Code Review, CI/CD basics
+  - Version control: Git, GitHub, Git Flow
+  - Task management: Yougile, Kaiten
+  - Bundlers: Webpack
+  - Design tools: Figma (pixel-perfect layout implementation)
+  - Teamwork: Agile (Scrum/Kanban), Code Review, CI/CD basics
 
 ## Code Example
 
@@ -75,6 +75,6 @@ console.log(buildPyramid());
 
 ### Languages:
 
-Russian - C2 (Proficiency)
-Belarusian - C1 (Advanced)
-English - B1-B2 (Intermediate/Upper-intermediate)
+- Russian - C2 (Proficiency)
+- Belarusian - C1 (Advanced)
+- English - B1-B2 (Intermediate/Upper-intermediate)
