@@ -5,9 +5,9 @@
 ## Contact information
 
 - Location: Minsk, Belarus
-- Telegram: @Ekaterina421
+- Telegram: [@Ekaterina421](https://t.me/Ekaterina421)
 - Email: belporibet@mail.ru
-- GitHub: @KateSt421
+- GitHub: [@KateSt421] (https://github.com/KateSt421)
 - Discord: katest421
 
 ## About me
