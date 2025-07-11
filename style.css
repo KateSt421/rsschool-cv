@@ -10,23 +10,14 @@
   font-weight: 400;
 }
 @font-face {
-  font-family: "RalewayDots";
-  src: url("../fonts/Montserrat-Regular.eot");
-  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.ttf") format("truetype");
+  font-family: "Poppins";
+  src: local("Poppins Medium"), local("Poppins-Medium"), url("./assets/fonts/Poppins-Medium.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat-ExtraBold.eot");
-  src: local("Montserrat ExtraBold"), local("Montserrat-ExtraBold"), url("../fonts/Montserrat-ExtraBold.woff") format("woff"), url("../fonts/Montserrat-ExtraBold.ttf") format("truetype");
-  font-weight: 900;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Belleza";
-  src: url("../fonts/Belleza-Regular.eot");
-  src: local("Belleza Regular"), local("Belleza-Regular"), url("../fonts/Belleza-Regular.woff2") format("woff2"), url("../fonts/Belleza-Regular.woff") format("woff"), url("../fonts/Belleza-Regular.ttf") format("truetype");
+  font-family: "Poppins";
+  src: local("Poppins Regular"), local("Poppins-Regular"), url("./assets/fonts/Poppins-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -134,16 +125,49 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 25px;
+  margin-top: 130px;
+}
+
+.main-left {
+  width: 28%;
+  height: 700px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
 }
 
 .main-right {
-  width: 400px;
-  height: 800px;
+  width: 72%;
+  margin-top: -100px;
+}
+
+.main-navy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 503px;
+  height: 100px;
+  background: #F2F7FC;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  margin-left: 363px;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  background: url(assets/img/pic.png);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  background-size: cover;
+  margin: -100px 75px 0 75px;
+  text-align: center;
 }
 
 #profile {
   position: sticky;
-  top: 0;
+  top: 10px;
   z-index: 100;
 }
 
@@ -160,5 +184,15 @@ body {
 
 .footer-navy {
   display: flex;
-  gap: 20px;
+  gap: 40px;
+}
+
+.logo-box {
+  width: 150px;
+  height: 50px;
+}
+
+.footer-copy {
+  width: 190px;
+  height: 50px;
 }/*# sourceMappingURL=style.css.map */
