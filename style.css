@@ -125,12 +125,11 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 25px;
-  margin-top: 130px;
+  margin-top: 100px;
 }
 
 .main-left {
   width: 28%;
-  height: 800px;
   background: #FFFFFF;
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
@@ -140,6 +139,7 @@ body {
   position: sticky;
   top: 10px;
   z-index: 100;
+  height: 745px;
 }
 
 .title {
@@ -150,6 +150,7 @@ body {
   line-height: 36px;
   color: #0B0909;
   text-align: center;
+  margin-bottom: 0;
 }
 
 .profi-title {
@@ -160,6 +161,26 @@ body {
   line-height: 40px;
   color: rgba(11, 9, 9, 0.5);
   text-align: center;
+  margin-top: 0;
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 10px;
+  width: 182px;
+  height: 44px;
+  color: #F2F7FC;
+  border: none;
+  background: linear-gradient(91.49deg, #FF9C1A 7.92%, #E80505 108.2%);
+  border-radius: 20px;
+  cursor: pointer;
+}
+.resume:hover {
+  background: #E1E8EF;
+  color: #0B0909;
 }
 
 .left-navy {
@@ -178,6 +199,9 @@ body {
   border-radius: 8.26855px;
   color: black;
   text-decoration: none;
+}
+.link-brands:hover {
+  background: #E1E8EF;
 }
 
 .link-brands:nth-child(2) {
@@ -199,7 +223,8 @@ body {
   background: #F2F5F9;
   border-radius: 20px;
   margin: 22.34px 25px 66px 25px;
-  padding: 33px 36px;
+  padding: 25px;
+  align-items: center;
 }
 
 .contacts-item {
@@ -219,6 +244,8 @@ body {
 
 .title-text_box {
   width: 150px;
+  border-bottom: 1px solid #CDCDCD;
+  padding-bottom: 10px;
 }
 
 .text-item_contacts, .mail-link {
@@ -268,7 +295,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 200px;
+  height: 150px;
 }
 
 .footer-navy {
