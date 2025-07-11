@@ -17,7 +17,6 @@
       <div class="header">
         <div><a class="header-home" href="index.html"><h2 class="header-name">Ekaterina <span class="header-name_color">Stankevich</span></h2></a>
         </div>
-        
         <div class="toggle">
           <a href=""><img src="assets/svg/moon.svg" alt="night"></a>
         </div>
@@ -28,20 +27,47 @@
       <div class="main-container">
         <div class="main-left">
           <section class="section" id="profile">
-            <div class="photo"></div>
-            <h1>Ekaterina Stankevich</h1>
-            <p>Frontend Developer</p>
-            <div class='footer-navy'>
-            <a class='link-navy' target='blank' href="https://telegram.org"><i class="fa-brands fa-telegram" aria-hidden="true"></i></a>
-            <a class='link-navy' target='blank' href="https://whatsapp.com"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a><a class='link-navy' target='blank' href="https://whatsapp.com"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
-              <a class='link-navy' target='blank' href="https://github.com/KateSt421"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
-              <a class='link-navy' target='blank' href="https://discord.com">
+            <div class="photo">
+            </div>
+            <h1 class="title">Ekaterina Stankevich</h1>
+            <p class="profi-title">Frontend Developer</p>
+            <div class="left-navy">
+            
+              <a class="link-brands" target="blank" href="https://linktr.ee/Kate421421">
+                <i class="fas fa-link" aria-hidden="true">
+                </i>
+              </a>
+
+            
+              <a class="link-brands" target="blank" href="https://linkedin.com">
+                <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a class="link-brands" target="blank" href="https://github.com/KateSt421"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+              <a class="link-brands" target="blank" href="https://discord.com">
                 <i class="fa-brands fa-discord" aria-hidden="true"></i></a>
             </div>
-            <div class="">
-              <ul><li>Telegram: @Ekaterina421</li>
-              <li>Email: belporibet@mail.ru</li>
-              <li>Discord: katest421</li>Location: Minsk, Belarus</ul>
+            <div class="block-contacts">
+              <div class="contacts-item">
+                <img src="assets/svg/phone.svg" alt="telegram">
+                <div class="title-text_box">
+                  <p class="title-item_contacts">Telegram</p>
+                  <a class="text-item_contacts"class="link-brands" target="blank" href="https://t.me/Ekaterina421">@Ekaterina421</a>
+                </div>
+              </div>
+              <div class="contacts-item">
+                <img src="assets/svg/mail.svg" alt="mail">
+                <div class="title-text_box">
+                  <p class="title-item_contacts">Email</p>
+                  <a class="mail-link" href="mailto:mail@belporibet@mail.ru">belporibet@mail.ru</a>
+                </div>
+              </div>
+              <div class="contacts-item">
+                <img src="assets/svg/ion_location-outline.svg" alt="location">
+                <div class="title-text_box">
+                  <p class="title-item_contacts">Location</p>
+                  <p class="text-item_contacts">Minsk, Belarus</p>
+                </div>
+              </div>
             </div>
           </section>
           <section class="section" id="contacts"></section>
@@ -65,6 +91,16 @@
           <section class="section" id="skills"></section>
           <section class="section" id="code">
             <h2>Code Example</h2>
+            <pre><code>function buildPyramid(height = 5, char = '*') {
+  let pyramid = '';
+  for (let i = 1; i &lt;= height; i++) {
+    pyramid += ' '.repeat(height - i);
+    pyramid += char.repeat(i * 2 - 1);
+    pyramid += '\n';
+  }
+  return pyramid;
+}
+console.log(buildPyramid());</code></pre>
           </section>
           <section class="section" id="courses"></section>
           <section class="section" id="projects"><h2>Projects</h2></section>

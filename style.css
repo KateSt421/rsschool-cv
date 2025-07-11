@@ -130,10 +130,105 @@ body {
 
 .main-left {
   width: 28%;
-  height: 700px;
+  height: 800px;
   background: #FFFFFF;
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
+}
+
+#profile {
+  position: sticky;
+  top: 10px;
+  z-index: 100;
+}
+
+.title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28.4197px;
+  line-height: 36px;
+  color: #0B0909;
+  text-align: center;
+}
+
+.profi-title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 40px;
+  color: rgba(11, 9, 9, 0.5);
+  text-align: center;
+}
+
+.left-navy {
+  display: flex;
+  justify-content: center;
+  gap: 9px;
+}
+
+.link-brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60.03px;
+  height: 61.19px;
+  background-color: #F2F7FC;
+  border-radius: 8.26855px;
+  color: black;
+  text-decoration: none;
+}
+
+.link-brands:nth-child(2) {
+  color: #0077B5;
+}
+
+.link-brands:nth-child(3) {
+  color: #0B0909;
+}
+
+.link-brands:nth-child(4) {
+  color: #5865F2;
+}
+
+.block-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background: #F2F5F9;
+  border-radius: 20px;
+  margin: 22.34px 25px 66px 25px;
+  padding: 33px 36px;
+}
+
+.contacts-item {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.title-item_contacts {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 0px;
+  color: rgba(26, 16, 3, 0.5);
+}
+
+.title-text_box {
+  width: 150px;
+}
+
+.text-item_contacts, .mail-link {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  text-decoration: none;
 }
 
 .main-right {
@@ -165,12 +260,6 @@ body {
   text-align: center;
 }
 
-#profile {
-  position: sticky;
-  top: 10px;
-  z-index: 100;
-}
-
 .footer {
   background-color: #F2F5F9;
 }
@@ -185,6 +274,7 @@ body {
 .footer-navy {
   display: flex;
   gap: 40px;
+  justify-content: center;
 }
 
 .logo-box {
