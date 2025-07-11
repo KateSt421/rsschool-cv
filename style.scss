@@ -1,3 +1,176 @@
+
+@font-face {
+  font-family: "Raleway";
+  src: local('Raleway VariableFont wght'), local('Raleway-VariableFont_wght'),
+		url('./assets/fonts/Raleway-VariableFont_wght.ttf') format('truetype');
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Pacifico';
+	src: local('Pacifico Regular'), local('Pacifico-Regular'),
+		url('./assets/fonts/Pacifico-Regular.ttf') format('truetype');
+	font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+	font-family: 'RalewayDots';
+	src: url('../fonts/Montserrat-Regular.eot');
+	src: local('Montserrat Regular'), local('Montserrat-Regular'),
+		url('../fonts/Montserrat-Regular.woff') format('woff'),
+		url('../fonts/Montserrat-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-ExtraBold.eot');
+	src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'),
+		url('../fonts/Montserrat-ExtraBold.woff') format('woff'),
+		url('../fonts/Montserrat-ExtraBold.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+  font-family: 'Belleza';
+  src: url('../fonts/Belleza-Regular.eot');
+  src: local('Belleza Regular'), local('Belleza-Regular'),
+      url('../fonts/Belleza-Regular.woff2') format('woff2'),
+      url('../fonts/Belleza-Regular.woff') format('woff'),
+      url('../fonts/Belleza-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0; padding: 0;
+  background-color: #F2F5F9;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 104px;
+  align-items: center;
+}
+
+.header-home {
+  text-decoration: none;
+}
+
+.header-name {
+  font-family: 'Pacifico';
+  font-size: 24px;
+  line-height: 42px;
+  color: #000000;
+}
+
+.header-name_color {
+  background: linear-gradient(180deg, #FF9C1A 0%, #ED250A 100%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  background: #EBF2FA;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.nav-item {
+  list-style-type:none;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  width: 80px;
+  height: 80px;
+  background: #E1E8EF;
+  border-radius: 20px;
+  cursor: pointer;
+  align-items: center;
+  padding: 17px 18px;
+  gap: 3px;
+  &:hover{
+    background: linear-gradient(91.49deg, #FF9C1A 7.92%, #E80505 108.2%);
+    color: #F2F7FC;
+  } 
+}
+
+.nav-link {
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #000000;
+  &:hover {
+     color: #F2F7FC;
   }
+}
+
+.home-icon {
+  width: 24px;
+  height: 24px;
+  &:hover {
+     color: #F2F7FC;
+  }
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.main-right {
+  width: 400px;
+  height: 800px;
+}
+
+#profile {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+
+.footer {
+  background-color: #F2F5F9;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+}
+
+.footer-navy {
+  display: flex;
+  gap: 20px;
+}
+
