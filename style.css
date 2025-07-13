@@ -80,37 +80,39 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 40px;
+  align-items: center;
+  padding: 0;
 }
 
 .nav-item {
   list-style-type: none;
-  display: flex;
-  flex-direction: column;
+}
+
+.nav-link {
   border: none;
   width: 80px;
   height: 80px;
   background: #E1E8EF;
   border-radius: 20px;
   cursor: pointer;
-  align-items: center;
   padding: 17px 18px;
-  gap: 3px;
-}
-.nav-item:hover {
-  background: linear-gradient(91.49deg, #FF9C1A 7.92%, #E80505 108.2%);
-  color: #F2F7FC;
-}
-
-.nav-link {
   font-family: "Raleway";
   font-weight: 600;
   font-size: 12px;
   line-height: 20px;
   text-decoration: none;
   color: #000000;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  fill-opacity: 0.5;
 }
 .nav-link:hover {
+  background: linear-gradient(91.49deg, #FF9C1A 7.92%, #E80505 108.2%);
   color: #F2F7FC;
+  stroke: #F2F7FC;
+  fill: #F2F7FC;
 }
 
 .home-icon {
@@ -279,12 +281,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 503px;
   height: 100px;
   background: #F2F7FC;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
-  margin-left: 363px;
   margin-bottom: 10px;
 }
 
@@ -329,6 +329,11 @@ body {
 .project-link {
   text-decoration: none;
   color: #0077B5;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
 }
 
 h3 {
@@ -366,4 +371,44 @@ h3 {
 .footer-copy {
   width: 190px;
   height: 50px;
+}
+
+.up-arrow {
+  position: fixed;
+  bottom: 170px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  padding: 0;
+}
+
+.up-arrow img {
+  width: 24px;
+  height: 24px;
+}
+
+.up-arrow.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.up-arrow:hover {
+  background: linear-gradient(91.49deg, #FF9C1A 7.92%, #E80505 108.2%);
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
