@@ -1,6 +1,6 @@
 # Kate Stankevich
 
-![Photo](/pic.png)
+![Photo](/assets/img/pic.png)
 
 ## Contact information
 
